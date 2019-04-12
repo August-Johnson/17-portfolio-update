@@ -63,8 +63,9 @@ address {
 }
 
 address img {
-    width: 80px;
+    width: 65px;
     height: auto;
+    margin: 10px;
 }
 
 #phone-number {
@@ -86,7 +87,7 @@ address img {
     padding-top: 0px;
 }
 
-.btn-primary {
+.btn {
     width: 100%;
     margin: 5px auto;
 }
@@ -113,6 +114,11 @@ address img {
     color: rgb(50,50,50);
 }
 
+.group-member {
+    margin: 5px;
+    text-decoration: underline;
+}
+
 .card-footer {
     padding: 15px;
 }
@@ -132,12 +138,6 @@ img.card-img-top {
 }
 
 @media only screen and (min-width: 992px) {
-    .btn-primary {
-        width: 45%;
-        display: inline-block;
-        margin: 5px;
-    }
-
     .link-with-border {
         border-left: 1px solid #ffffff;
         margin-left: 5px;
@@ -145,5 +145,13 @@ img.card-img-top {
 
     .nav-item {
         padding: 5px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .btn {
+        width: 45%;
+        display: inline-block;
+        margin: 5px;
     }
 }
