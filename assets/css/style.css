@@ -10,6 +10,10 @@ body {
     background-size: cover;
 }
 
+em {
+    text-decoration: underline;
+}
+
 h1 {
     font-size: 165%;
     padding: 5px;
@@ -19,7 +23,8 @@ h1 {
 
 h2 {
     text-align: center;
-    margin: 10px;
+    margin: 15px;
+    padding: 5px;
 }
 
 h4 {
@@ -33,6 +38,7 @@ h5 {
 h6 {
     text-align: center;
     text-decoration: underline;
+    font-size: 115%;
 }
 
 hr {
@@ -42,7 +48,7 @@ hr {
 img {
     width: 100%;
     height: auto;
-    margin-bottom: 10px;
+    margin: 5px 10px;
 }
 
 footer {
@@ -50,13 +56,20 @@ footer {
     margin-top: 30px;
     background-color: #ffffff;
     text-align: center;
-    bottom: 0;
-    left: 0;
-    right: 0;
 }
 
 address {
     margin-bottom: 0;
+    padding: 5px;
+}
+
+address img {
+    width: 80px;
+    height: auto;
+}
+
+#phone-number {
+    color: #0000FF;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -97,6 +110,10 @@ address {
     max-height: 70px;
 }
 
+.technologies-used {
+    color: rgb(50,50,50);
+}
+
 .card-footer {
     padding: 15px;
 }
@@ -111,16 +128,11 @@ img.card-img-top {
 /* media queries */
 @media only screen and (min-width: 768px) {
     body {
-        color: red;
         padding-top: 60px;
     }
 }
 
 @media only screen and (min-width: 992px) {
-    body {
-        color: blue;
-    }
-
     .btn-primary {
         width: 45%;
         display: inline-block;
@@ -134,11 +146,5 @@ img.card-img-top {
 
     .nav-item {
         padding: 5px;
-    }
-}
-
-@media only screen and (min-width: 1200px) {
-    body {
-        color: black;
     }
 }
